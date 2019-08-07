@@ -2,8 +2,6 @@
 
 en opsummering af eksisterende referencearkitekturer med fornyet forkus på sikkerhed. Vægt på at beskrive eksisterende kendte mønstre, deres fordele og ulemper, samt hvilke områder det er vigtigt at standardisere/regulerer/aftale.
 
-
-
 ## Indledning
 
 - Formål, anvendelse og målgruppe
@@ -12,11 +10,9 @@ en opsummering af eksisterende referencearkitekturer med fornyet forkus på sikk
 - Tilblivelse og governance
 - Anvendt metode, notation og signsturforklsring
 - Releation til rammearkitektur og andre referencearkitekturer
-- Læsevejledning
-
 
 ## Juridiske rammer....
-**Udvid med cybersecurity og ny krigsregel**
+GDPR, NIS?, PSI og eIDAS.
 
 Ridse de vigtigste principper op.
 
@@ -24,17 +20,12 @@ Ridse de vigtigste principper op.
 - Data kan være kristiske og følsomme
 - Sikkerhed og privacy
 
-GDPR, NIS?, PSI og eIDAS.
-
 
 ## Strategi
 
-- Forretningsmæssige tendenser
-  - Regulering af datadeling GDPR, PSI mm
+- Forretningsmæssige tendenser (regulering af datadeling GDPR, PSI mm)
 - Teknologiske tendenser
-- Vision:  ***Sammenhængende, sikker og effektiv*** 
-
-Brugerorienteret, tværgående, beskyttet, privacy, cost og process...
+- Vision:  ***Sammenhængende, sikker og effektiv*** Den fra FODS. 
 
 Beskriv at vi holder os til det tværgående, men at lokal risiko vurdering kan overse det fællesoffentlige. Derfor må vi også kigge på de lokale processer og tjenester der understøtter visionen.
 
@@ -42,7 +33,7 @@ Beskriv at vi holder os til det tværgående, men at lokal risiko vurdering kan 
 - Strategiske principper
 - Værdiskabelse
 - Sikkerhed?
-
+- Rauls model
 
 ## Forretningsarkitektur
 - Opgaver, aktører, roller og ansvar
@@ -65,24 +56,10 @@ Normative -> Controlled (særligt mit overblik/tværgående brugeroplevelser)
 Normativt -> Controlled (persondata og grunddata)
           -> Normativ (PSI)
 
-
-
 ### Forvaltning af Services, Application og Data
 (Subsidiary -> Normative)
-<hr>
-
-
-
-### Regulatory and Implementation Scenarios
-
-- Controlled Scenario
-- Normative Scenario
-- Federsted Scenario
-- Subsidiary Scenario
 
 
 ## Teknik
-- Nødvendige applikationsservices
-- Foretrukne Implementeringsmønstre (anvendelse af infrastruktur) Raul?
-- Understøttende services
-- Områder for standardisering
+- Foretrukne Implementeringsmønstre for hver af de ovenstående funktioner
+- Områder for standardisering og identificerede standarder
